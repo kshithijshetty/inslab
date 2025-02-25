@@ -3,7 +3,7 @@ encoded=''
 k=3
 
 def encyp(encoded):
-    print("------encrpted----------")
+    print("Encrypted...")
     for st in input:
      print(chr(ord(st)+3%26))
      encoded+= chr(ord(st)+3%26)
@@ -13,7 +13,7 @@ def encyp(encoded):
     
 print("original=",input)    
 def decyp(encoded):
-    print("------decrpted----------")
+    print("Decrypted....")
     for st in encoded:
      print(chr(ord(st)-3%26))
         
